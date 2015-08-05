@@ -1,5 +1,6 @@
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 80
+
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
 var http = require('http');
 
 // Load the http module to create an http server.
